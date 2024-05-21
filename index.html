@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    
+    <button class="propos"><a href="propos.html">A Propos</a></button>
+    
+    <div class="container">
+
+        <h1><em>porpo</em></h1>
+        <h2><em>SCIENTIFIC CALCULATOR</em></h2>
+
+        <!--Ecran sur lequel les valeurs seront visibles-->
+
+        <input type="text"  id="ecran" readonly>
+    <div class="heure"></div>
+    
+    <!-- button d'entete --> 
+
+    <div class="header">
+    <button type="button" value="e" id="button" class="btn-header">e</button>
+    <button type="button" value="&#8730;" id="button" class="btn-header">&#8730;</button>
+    <button type="button" value="&percnt;" id="button" class="btn-header">&percnt;</button>
+    <button type="button" value="sin" id="button" class="btn-header">sin</button>
+    <button type="button" value="cos" id="button" class="btn-header">cos</button>
+    <button type="button" value="tan" id="button" class="btn-header">tan</button>
+    <button type="button" value="&#960;" id="button" class="btn-header">&#960;</button>
+    <button type="button" value="1/" id="button" class="btn-header">1/X</button>
+    <button type="button" value="(" id="button" class="btn-header">(</button>
+    <button type="button" value=")" id="button" class="btn-header">)</button>
+    <button type="button"  value="&#8731;" id="button" class="btn-header">&#8731;</button>
+    <button type="button" value="ln" id="button" class="btn-header">ln</button>
+    
+    </div>
+
+    <!--button des chiffres(clavier)--> 
+    
+    <div class="clavier">
+        <button type="button" value="7"id="button" class="number">7</button>
+        <button type="button" value="8"id="button" class="number">8</button>
+        <button type="button" value="9"id="button" class="number" >9</button>
+        <button type="button" value="back" id="back" class="number">DEL</button>
+        <button type="button" value="clear" id="clear" class="number">ON/CE</button>
+        <button type="button" value="4"id="button" class="number">4</button>
+        <button type="button" value="5"id="button" class="number">5</button>
+        <button type="button" value="6"id="button" class="number">6</button>
+        <button type="button" value="*"id="button" class="number">x</button>
+        <button type="button" value="/"id="button" class="number">/</button>
+        <button type="button" value="1" id="button" class="number">1</button>
+        <button type="button" value="2"id="button" class="number">2</button>
+        <button type="button" value="3"id="button" class="number">3</button>
+        <button type="button" value="+"id="button" class="number">+</button>
+        <button type="button" value="-"id="button" class="number">-</button>
+        <button type="button" value=".00"id="button" class="number">.00</button>
+        <button type="button" value="0"id="button" class="number">0</button>
+        <button type="button" value="."id="button" class="number">.</button>
+        <button type="button" onclick="afficherAncienneReponse();" class="number">ANS</button>
+        <button type="button" value="="id="resultat" class="number">=</button>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
